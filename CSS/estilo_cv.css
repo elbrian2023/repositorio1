@@ -1,0 +1,34 @@
+*{
+    width: 1000px;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color:black;
+    font: bolder;
+}
+
+p, span{
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+p, label{
+    font-weight: bold;
+}
+ul#tareas {
+    padding-left: 135px;
+}
+#otrosconocimientos, ul{
+    margin-left: 50px;
+} 
+
+img{
+    float: right;
+    width: 250px;
+    height: 160px;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}

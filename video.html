@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <!-- El elemento VIDEO tiene distintos atributos.
+    Estos se pueden chequear en mozilla.org 
+    tanto como el alto o el ancho del video se pueden modificar, aunque ese diseño es preferible para la capa
+    CSS. Existen atributos como el autoplay, o los controles, para que el usuario conserve la usabilidad
+    de la página HTML  -->
+    <video width="640" height="480" controls>
+        <!--En este caso "controls" es un atributo que le permite al usuario controlar la reproduccioón del 
+        video, como play, el volumen, y una lista de opciones que puede realizar-->
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/ogg">
+        <!-- el source o "recurso" puede provenir desde la computadora o desde la web -->
+        <!-- además en "type" se utilizan distintos formatos, como mp4 o ogg para abarcar la mayor 
+        cantidad de formatos soportados, es decir, si el navegador no soporta mp4 puede reproducir el formato
+        ogg, u otros -->
+    Tu navegador no soporta el elemento de video
+    <!--Luego de cada video, se utiliza una línea para avisarle al usuario si su navegador no pudo 
+    reproducirlo. La lista de navegadores que soportan los distintos formatos se pueden chequear
+    en caniuse.com -->
+    </video>
+</body>
+</html>
